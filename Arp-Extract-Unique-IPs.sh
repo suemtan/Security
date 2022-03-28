@@ -11,7 +11,6 @@ echo "ARP-SCAN done"
 
 #display IPs from ARP-scan
 echo "IPs from ARP-Scan"
-#cat $MYPATH/IPs-ARP.txt
 cat $MYPATH/IPs-ARP.txt 
 
 #check the file exist in the directory
