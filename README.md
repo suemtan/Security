@@ -5,3 +5,4 @@
 3) Arp-Extract-Unique-IPs.sh - Arp Scan to find the LAN network and extract IP list
 4) Pin-scan-extract-OSFingerprinting.sh - Ping Scan to find the LAN network, extract IP list, and get OS Fingerprinting information from the IP list
 5) Diff-Firewall-Testing.sh - Simulating different Firewall Evasion Techniques using nmap - ACK Scan, Port Detection, Decoy IP, Source Port- Port status, and changing Data length
+6) pwd-bruteforce-Options.sh - Different default password brute-force attacks - SSH, Telnet, and FTP server using nmap
