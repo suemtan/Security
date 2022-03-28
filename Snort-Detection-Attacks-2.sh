@@ -51,7 +51,7 @@ function SSH-Brute(){
     echo ""
     echo "you choose SSH"
     nmap -v --script ssh-brute -p22 $ip_add --script-args userdb=$MYPATH/users.txt,passdb=$MYPATH/password-lists-update.txt -oN $MYPATH/SSH-Brute-nmap.txt
-    echo "The output file is saved under home/syssw/Desktop/scripts/Bruteforce-ssh-nmap.txt"
+    echo "The output file is saved under home/Desktop/scripts/Bruteforce-ssh-nmap.txt"
 }
 
 function Telnet-Brute(){
